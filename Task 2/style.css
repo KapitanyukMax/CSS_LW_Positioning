@@ -12,7 +12,7 @@ nav {
     color: white;
 }
 
-nav {
+nav:hover {
     width: 250px;
 }
 
@@ -29,6 +29,8 @@ ul {
 }
 
 nav li {
+    display: flex;
+    align-items: center;
     white-space: nowrap;
     background-color: #5e5e5e;
 }
@@ -38,14 +40,11 @@ nav li:hover {
 }
 
 nav li img {
-    float: left;
     width: 60px;
     margin: 10px 15px;
 }
 
 nav li span {
-    float: right;
-    margin: 0 60px 0 15px;
     text-transform: uppercase;
 }
 
